@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install chromium and other packages
+sudo apt install chromium-browser
+
 # Uninstall the telemetrytv snap package
 sudo snap remove telemetrytv
 
