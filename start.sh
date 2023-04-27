@@ -24,3 +24,6 @@ Type=Application
 Name=Kiosk
 Exec=/home/infoskjerm/kiosk.sh
 X-GNOME-Autostart-enabled=true' | sudo tee /etc/xdg/autostart/kiosk.desktop >/dev/null
+
+
+sudo reboot
