@@ -27,3 +27,6 @@ X-GNOME-Autostart-enabled=true' | sudo tee /etc/xdg/autostart/kiosk.desktop >/de
 
 # Add the cronjob
 { crontab -l | sed '$!b' ; echo "30 7 * * 1-5 killall chrome >/dev/null 2>&1"; } | crontab -
+
+# Display the modified crontab file
+crontab -l
