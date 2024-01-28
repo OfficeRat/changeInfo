@@ -6,7 +6,7 @@ sudo apt install chromium-browser
 # Uninstall the telemetrytv snap package
 sudo snap remove telemetrytv
 
-# Set the URL to open in the kiosk window
+# Set the URL to open in the kiosk window. for example cloudcast
 URL="https://v.getcloudcast.com"
 
 # Create the kiosk script
