@@ -26,7 +26,7 @@ Exec=/home/infoskjerm/kiosk.sh
 X-GNOME-Autostart-enabled=true' | sudo tee /etc/xdg/autostart/kiosk.desktop >/dev/null
 
 # Add the cronjob
-cronjob="30 7 * * 1-5 killall chrome >/dev/null 2>&1"
+cronjob="0 6,10,12 * * 1-5 killall chrome >/dev/null 2>&1"
 (crontab -l 2>/dev/null; echo "$cronjob") | sudo crontab -
 
 # Display the modified crontab file
